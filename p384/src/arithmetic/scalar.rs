@@ -188,6 +188,14 @@ impl AsRef<Scalar> for Scalar {
     }
 }
 
+impl Neg for &Scalar {
+    type Output = Scalar;
+
+    fn neg(self) -> Scalar {
+        -*self
+    }
+}
+
 impl FromUintUnchecked for Scalar {
     type Uint = U384;
 
