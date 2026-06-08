@@ -1,3 +1,10 @@
+<!-- lit-archived-banner -->
+> ⚠️ **This repository is archived and is no longer maintained.**
+>
+> Lit Protocol has kept it publicly available for **educational and reference purposes only**. Code here may be out of date and is not supported.
+
+---
+
 # RustCrypto: Elliptic Curves ![Rust Version][rustc-image] [![Project Chat][chat-image]][chat-link] [![dependency status][deps-image]][deps-link]
 
 General purpose Elliptic Curve Cryptography (ECC) support, including types
